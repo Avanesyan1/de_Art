@@ -1,0 +1,229 @@
+name: de_art
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10
+  flutter_swiper_view: ^1.1.8
+  url_launcher:
+  flutter_localization:
+  flutter_masked_text2: ^0.9.1
+  yandex_mapkit: ^3.2.0
+  geolocator: ^9.0.2
+  equatable: ^2.0.5
+  permission_handler: ^11.0.0
+  dio: ^5.4.1
+  syncfusion_flutter_sliders: ^25.1.35
+  syncfusion_flutter_core: ^25.1.35
+  qr_flutter: ^4.1.0
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.8
+  fluttertoast: ^8.2.4
+  qr_code_scanner: ^1.0.1
+  cloud_firestore:
+  date_picker_plus: ^4.0.0
+  shared_preferences: ^2.2.3
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/Minus.svg
+    - assets/Plus.svg
+    - assets/redVk.svg
+    - assets/redTg.svg
+    - assets/redViber.svg
+    - assets/redWa.svg
+    - assets/agree.svg
+    - assets/disagree.svg
+    - assets/callWhite.svg
+    - assets/logoWhite.svg
+    - assets/whiteMenu.svg
+    - assets/taganskaya.png
+    - assets/Rectangle4.png
+    - assets/Rectangle3.png
+    - assets/Rectangle2.png
+    - assets/Rectangle1.png
+    - assets/icon_svidanie.svg
+    - assets/Icon_molodozheni.svg
+    - assets/Icon_Tretyakovka.svg
+    - assets/Icon_jakuzi.svg
+    - assets/metro.svg
+    - assets/Icon_sofa.svg
+    - assets/slider_right.svg
+    - assets/slider_left.svg
+    - assets/Icon_Calendar2.svg
+    - assets/Icon_Time2.svg
+    - assets/logo.svg
+    - assets/menu.svg
+    - assets/call.svg
+    - assets/greyStar.svg
+    - assets/goldStar.svg
+    - assets/hotel.png
+    - assets/filtr.svg
+    - assets/sea.png
+    - assets/time1.svg
+    - assets/time12.svg
+    - assets/time24.svg
+    - assets/stars.svg
+    - assets/tv.svg
+    - assets/food.svg
+    - assets/bathrobe.svg
+    - assets/bar.svg
+    - assets/cleaning.svg
+    - assets/payment.svg
+    - assets/parking.svg
+    - assets/wi-fi.svg
+    - assets/hotel2.png
+    - assets/Icon_hotels.svg
+    - assets/Icon_rooms.svg
+    - assets/Icon_Time.svg
+    - assets/Icon_servic.svg
+    - assets/picture_pool.png
+    - assets/Icon_Djakuzi.svg
+    - assets/Kamin.svg
+    - assets/Icon_Matras.svg
+    - assets/IconBreakRoom.svg
+    - assets/IconFireExtinguisher.svg
+    - assets/IconLightOff.svg
+    - assets/IconHuman.svg
+    - assets/IconBus.svg
+    - assets/IconClock.svg
+    - assets/IconTelegram.svg
+    - assets/IconViber.svg
+    - assets/IconVK.svg
+    - assets/IconWhatsApp.svg
+    - assets/Icon_Air.svg
+    - assets/IconPencilNote.svg
+    - assets/IconPeople.svg
+    - assets/IconTimeToPay.svg
+    - assets/IconBath.svg
+    - assets/IconBathMassage.svg
+    - assets/IconBed.svg
+    - assets/IconChair.svg
+    - assets/IconReceptionHelp.svg
+    - assets/IconTV.svg
+    - assets/IconBar.svg
+    - assets/IconBathrobe.svg
+    - assets/IconCleaning.svg
+    - assets/IconDish.svg
+    - assets/IconParking.svg
+    - assets/IconTelevision.svg
+    - assets/IconWallet.svg
+    - assets/IconWIFI.svg
+    - assets/IconBEST.svg
+    - assets/IconCarWash.svg
+    - assets/IconAB.svg
+    - assets/IconCH.svg
+    - assets/Icon_Calendar.svg
+    - assets/Icon_dollar_down.svg
+    - assets/Icon_interiors.svg
+    - assets/Map.png
+    - assets/logo2.svg
+    - assets/wa.svg
+    - assets/tg.svg
+    - assets/viber.svg
+    - assets/vk.svg
+    - assets/right.svg
+    - assets/left.svg
+    - assets/mark.svg
+    - assets/loc.svg
+    - assets/infr.svg
+    - assets/number.svg
+    - assets/iconFood.svg
+    - assets/1.png
+    - assets/2.png
+    - assets/3.png
+    - assets/4.png
+    - assets/Vk-BLACK.svg
+    - assets/WA-BLACK.svg
+    - assets/VI-BLACK.svg
+    - assets/VI-BLACK.png
+    - assets/TE-BLACK.svg
+    - assets/Map_Profsoyznaya.png
+    - assets/Map_Tekstilshiki.png
+    - assets/Map_Novokosino.png
+    - assets/Map_Taganskaya.png
+    - assets/Map_Kropotinskaya.png
+    - assets/bg.svg
+    - assets/bg2.svg
+    - assets/Avia.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: CeraPro
+      fonts:
+       - asset: assets/fonts/CeraPro-Regular.ttf
+         weight: 400
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
